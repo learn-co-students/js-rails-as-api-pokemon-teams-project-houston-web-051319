@@ -4,7 +4,7 @@ const POKEMONS_URL = `${BASE_URL}/pokemons`
 let allTrainers = null
 document.addEventListener('DOMContentLoaded',function(e){
 
-    // e.preventDefault()
+    e.preventDefault()
 
     // gets trainer json info
     fetch(TRAINERS_URL).then(function(response){
